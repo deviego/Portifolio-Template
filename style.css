@@ -24,7 +24,7 @@ h1 {
 
   border-radius: 0.5rem;
 }
-ul{
+ul {
   gap: 16px;
 }
 li {
@@ -33,27 +33,43 @@ li {
   gap: 10px;
   margin-bottom: 16px;
 }
-.side-bar{
+.side-bar {
   display: block;
   margin: 16px;
 }
-.side-bar .cont{
+.side-bar .cont {
   background-color: var(--bg-cards);
   padding: 16px;
   margin-bottom: 16px;
 
   width: 348px;
-  
+
   border-radius: 0.5rem;
 }
-.cont.user{
+.cont.user {
   text-align: center;
   justify-content: center;
 }
 
+.techs ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.techs li {
+  background-color: var(--bg-techs);
+  color: #22212c;
+  font-weight: 600;
+
+  margin-bottom: 2px;
+  padding: 8px 16px;
+
+  border-radius: 16px;
+
+}
+
+/*-----------*/
 .project {
   display: flex;
-
 }
 .card {
   background-color: var(--bg-cards);
@@ -65,9 +81,23 @@ li {
   padding: 16px;
   margin: 16px;
 }
-.card p{
+.card p {
   margin-bottom: 16px;
 }
 .img {
   height: 100px;
+}
+
+.post {
+  background-color: var(--bg-cards);
+  border-radius: 0.5rem;
+  margin: 16px;
+}
+.publicpost {
+  margin: 24px;
+  padding: 16px;
+  display: flex;
+}
+.textpost {
+  margin: 16px;
 }
